@@ -62,7 +62,7 @@ jobs:
 
       - run: go mod tidy
 
-      - run: wails build -ldflags "-s -w"
+      - run: wails build -tags webkit2_4.1 -ldflags "-s -w"
 
       - name: Build AppImage
         run: |
@@ -113,7 +113,7 @@ jobs:
 
       - run: go mod tidy
 
-      - run: wails build -ldflags "-s -w"
+      - run: wails build -tags webkit2_4.1 -ldflags "-s -w"
 
       - name: Build AppImage
         run: |
