@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "offline-species-explorer",
+  "outputfilename": "offline-species-explorer",
+  "frontend:install": "",
+  "frontend:build": "",
+  "frontend:dev:watcher": "",
+  "frontend:dev:serverUrl": "",
+  "author": {
+    "name": "Developer"
+  },
+  "info": {
+    "companyName": "Offline Species Explorer",
+    "productName": "Offline Species Explorer",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright 2024",
+    "comments": "An offline-first species explorer with taxonomic hierarchy"
+  }
+}
